@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Poppins:wght@500&family=Roboto:wght@900&display=swap');
+
+body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+span {
+    font-size: 90px;
+}
+#main-div {
+    display: flex;
+    /* gap: -100px; */
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: bisque; */
+    
+}
+.playing-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid rgb(199, 199, 70);
+    width: 500px;
+}
+.playing-div > p {
+    text-align: center;
+    font-size: 40px;
+}
+
+#versus {
+    margin: 0 auto;
+    height: 500px;
+}
+#game-logo-div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+#game-logo-div > img {
+        height: 80px;  
+}
+#computer {
+    display: block;
+}
+#paper-hand-machine, #scissors-hand-machine, #rock-hand-machine,#paper-hand, #scissors-hand, #rock-hand {
+    display: none;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+#play-again-div {
+    display: flex;
+    justify-content: center;
+}
+#play-again {
+    display: none;
+    height:fit-content;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 51);
+    color: white;
+}

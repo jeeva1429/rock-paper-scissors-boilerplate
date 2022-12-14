@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gamestyle.css">
+</head> 
+<body>
+    <div id="score-div">
+        <h1><span id="your-score">0</span> <span>-</span>  <span id="computer-score">0</span></h1>
+    </div>
+    <div id="main-div">
+        <div class="playing-div" id="you">
+            <p>You</p>
+            <div id="game-hand-div-human" id="ours">
+                <img id="paper-hand" src="./assets/paper-hand.png" alt="paper">
+                <img id="scissors-hand" src="./assets/scissors-hand.png" alt="scissors">
+                <img id="rock-hand" src="./assets/rock-hand.png" alt="rock">
+            </div>
+            
+            <div id="game-logo-div">
+                <img id="rock"  src="./assets/rock-logo.png" alt="">
+                <img id="paper" src="./assets/paper-logo.png" alt="">
+                <img id="scissors" src="./assets/scissors-logo.png" alt="">
+            </div>
+        </div>
+        <img id ="versus"src="./assets/vs.png" alt="">
+        <div class="playing-div" id="computer">
+            <p>computer</p>
+            <div id="game-hand-div-machine" id="machine">
+                <img id="paper-hand-machine" src="./assets/paper-hand.png" alt="paper">
+                <img id="scissors-hand-machine" src="./assets/scissors-hand.png" alt="scissors">
+                <img id="rock-hand-machine" src="./assets/rock-hand.png" alt="rock">
+            </div>
+        </div>
+    </div>
+    <h4 id="human-message">You won the game</h4>
+    <h4 id="computer-message">Computer won the game</h4>
+    <div id="play-again-div">
+        <button id="play-again">Play again</button>
+    </div>
+    
+<script src="./game.js"></script>
+
+
+</body>
+</html>
