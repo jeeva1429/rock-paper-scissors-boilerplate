@@ -61,7 +61,7 @@ rock.onclick = () => {
    if (Humanscore == 5){
     HideLogoHands(childLogoHands)
     document.getElementById('human-message').style.display = "inherit"
-    document.getElementById('play-again').display = "inherit"
+    document.getElementById('play-again').style.display = "inherit"
     
     }
     else if(machinescore == 5){
